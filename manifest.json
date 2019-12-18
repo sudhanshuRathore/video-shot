@@ -1,0 +1,20 @@
+{
+    "name": "Video Shoot",
+    "description" : "Grab screen shot from video. FYI this extension is open-source.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "active_tabs"
+    ],
+    "background": {
+        "scripts": [
+          "background.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Enable Video Shot"
+      }
+  }
